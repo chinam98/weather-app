@@ -3,7 +3,7 @@ import axios from 'axios';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import style from './Next3Days.module.css';
+import style from './Next5Days.module.css';
 import {  Link } from "react-router-dom";
 import { FaAngleLeft } from "react-icons/fa";
 
@@ -27,7 +27,7 @@ interface WeatherDays {
   };
 }
 
-const Next3Days = () => {
+const Next5Days = () => {
   const [weatherDays, setWeatherDays] = useState<WeatherDays>();
 
   useEffect(() => {
@@ -60,9 +60,9 @@ const Next3Days = () => {
           <FaAngleLeft />
         </div>
       </Link>
-      <div style={{width: 285, height: 100 ,marginTop: -570,marginLeft: 537}}>
+      <div style={{width: 280, height: 100 ,marginTop: 30,marginLeft: 100}}>
         {weatherDays?.forecast.forecastday.map((day) => (
-          <div className={style.Next3Days} key={day.date}>
+          <div className={style.Next5Days} key={day.date}>
             <div style={{paddingLeft: 5, paddingRight: 10}} className="flex justify-between font-semibold text-black">
               <h1>Đà Nẵng</h1>
               <h1>{day.date}</h1>
@@ -89,4 +89,4 @@ const Next3Days = () => {
   );
 };
 
-export default Next3Days;
+export default Next5Days;

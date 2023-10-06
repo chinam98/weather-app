@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Search from './Search';
 import './App.css';
 
-import Next3Days from './Next3Days';
+import Next5Days from './Next5Days';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Layout />} >
             <Route index element={<Home />} />
             <Route path="OneDay" element={<OneDay />} />
-            <Route path="Next3Days" element={<Next3Days />} />
+            <Route path="Next5Days" element={<Next5Days />} />
             <Route path="Search" element={<Search />} />
           </Route>
         </Routes>

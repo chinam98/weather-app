@@ -11,7 +11,7 @@ const Layout = () => {
           <img src='' />
         </div>
         <div style={{width: 287, height: 602, marginTop: -637, marginLeft: 537}} className='img mx-auto absolute' >
-          <img style={{borderRadius: 50, borderBottomLeftRadius: 0, borderBottomRightRadius: 0}} src='' />
+          <img  src='' />
         </div>
         <div className="weather">
           <Outlet />

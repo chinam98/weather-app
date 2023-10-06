@@ -14,7 +14,7 @@ const Home = () => {
               </Link>
             </div>
             <div>
-              <Link to="/Next3Days">
+              <Link to="/Next5Days">
                 <button className='text-white bg-slate-800 font-semibold ' style={{padding: 10, borderRadius: 20,marginTop: 20, marginLeft: 38 }}>Dự báo thời tiết 5 ngày tới</button>
               </Link>
             </div>
