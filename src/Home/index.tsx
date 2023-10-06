@@ -5,8 +5,8 @@ const Home = () => {
     <div className="flex justify-center">
         <div style={{ marginTop: -637, marginLeft: 537}} className='absolute'>
             <div>
-                <img style={{width: 200, height: 'auto', borderRadius: 20, marginTop: 100, marginLeft: 45 }} src='./public/Photo/icondbtt.png'  />
-                <p className='uppercase font-bold text-xl' style={{ marginTop: 5, marginLeft: 50,color: '#ffe200' }}>Thời tiết Đà Nẵng</p>
+                <img style={{width: 200, height: 'auto', borderRadius: 20, marginTop: 100, marginLeft: 45 }} src='./public/Photo/dubaothoitiet.png'  />
+                <h2 className='uppercase font-bold text-xl' style={{ marginTop: 5, marginLeft: 50,color: '#111' }}>Thời tiết Đà Nẵng</h2>
             </div>
             <div>
               <Link to="/OneDay">
