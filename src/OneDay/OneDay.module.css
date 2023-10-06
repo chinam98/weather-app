@@ -1,0 +1,11 @@
+.hours {
+    width: 287px;
+    height: 170px;
+    background-color: rgba(216, 109, 52, 0.658); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    position: absolute;
+    border-radius: 10%;
+    color: black;
+    margin-top: -320px;
+    margin-left: 537px;
+    }

@@ -1,0 +1,9 @@
+.iphone::before {
+  content: '';
+  width: 20px;
+  height: 1px;
+  background-color: black;
+}
+.body {
+  background-color: black;
+}
